@@ -72,13 +72,14 @@
 /* PC */
 
 :host.pc {
-    padding: 4rem 2rem 10rem;
+    padding: 4rem 4rem 10rem;
     clip-path: polygon(0% 0%, 100% 0%, 100% 90%, 50% 100%, 0% 90%);
 }
 
 :host.pc .container {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 2fr;
+    margin: 0 20rem auto;
 }
 
 :host.pc .title {

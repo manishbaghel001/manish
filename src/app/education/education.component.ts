@@ -9,35 +9,23 @@ import { Education } from '../models/models';
 export class EducationComponent {
   educationList: Education[] = [
     {
-      institute: "University of Pennsylvania's",
-      course: 'MBA',
-      duration: '2000-2002',
-      score: '80%',
+      institute: "University Institute of Engineering and Technology, Kurukshetra University",
+      course: 'B.Tech(Computer Science)',
+      duration: '2017-2021',
+      score: '69%',
     },
     {
-      institute: 'Stanford University',
-      course: 'M.S in Material Science',
-      duration: '1993-1995',
-      score: '75%',
+      institute: 'B.N Model Sr. Sec. School, Palwal',
+      course: 'Maths, Physics, Chemistry',
+      duration: '2015-2016',
+      score: '92%',
     },
     {
-      institute: 'IIT (Madras)',
-      course: 'BTech in Metallurgical Engineering',
-      duration: '1989-1993',
-      score: '85%',
-    },
-    {
-      institute: 'Vana Vani School',
-      course: 'HSC',
-      duration: '1988-1989',
-      score: '80%',
-    },
-    {
-      institute: 'Vana Vani School',
-      course: 'SSC',
-      duration: '1986-1988',
-      score: '90%',
-    },
+      institute: 'Vishwa Bharti Public High School, Palwal',
+      course: 'General',
+      duration: '2013-2014',
+      score: '87%',
+    }
   ];
 
   constructor() { }

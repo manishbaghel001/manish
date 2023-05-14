@@ -7,18 +7,17 @@ import { Component } from '@angular/core';
 })
 export class PersonalInformationComponent {
   myData: string[][] = [
-    ['Name', 'Sundar Pichai'],
-    ['DOB', '10/06/1972'],
-    ['Work Exp', '25 Years'],
-    ['Education', 'M.S (1995)'],
+    ['Name', 'Manish Baghel'],
+    ['DOB', '30/12/1999'],
+    ['Work Exp', '23 Years'],
+    ['Education', 'B.tech(2021)'],
     ['Interests', 'Cricket'],
   ];
 
   aboutMe: string[] = [
-    'Hi, I am a Software Engineer with 25 years of experience in software industry.',
-    'Worked as Head of Product Management in Google for various technologies (Google Search Engine, Google Drive, Chrome Browser).',
-    'Delivered all product withing deadlines. Always eager to learn new technologies.',
-    'Currently, working as CEO of Google Alphabet',
+    'Hi, I am a Software Engineer with 2 years of experience in building angular applications',
+    'with a passion for innovation in technology, self-development and ',
+    'sharpening my leadership skills in a cutting edge technology area.',
   ];
 
   constructor() { }

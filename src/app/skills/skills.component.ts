@@ -9,12 +9,12 @@ import { Skill } from '../models/models';
 export class SkillsComponent {
   skills: Skill[] = [
     {
-      name: 'Angular, Angular Material',
+      name: 'Angular',
       level: 'Expert',
       rating: 85,
     },
     {
-      name: 'ASP.NET Core, EF Core',
+      name: 'Data Structures and Algorithms',
       level: 'Intermidiate',
       rating: 70,
     },
@@ -29,10 +29,15 @@ export class SkillsComponent {
       rating: 80,
     },
     {
-      name: 'C++',
+      name: 'C/C++',
       level: 'Intermidiate',
       rating: 70,
     },
+    {
+      name: 'Git/Github',
+      level: 'Intermidiate',
+      rating: 75,
+    }
   ];
   constructor() { }
 

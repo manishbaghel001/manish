@@ -9,48 +9,25 @@ import { WorkExperience } from '../models/models';
 export class WorkExperienceComponent {
   workExpList: WorkExperience[] = [
     {
-      role: 'Chief Executing Officer',
-      company: 'Google (Aplhabet)',
-      duration: 'Aug 2015 - Now',
+      role: 'System Engineer',
+      company: 'Infosys',
+      duration: 'June 2021 - Now',
       description: [
-        'Working to expand google in remote areas.',
-        'Working to develop new technologies to make life easier.',
+        'Working on the migration of legacy application to angular and handling java code for reverse engineering for leading institution client of Infosys.',
+        'Experience working with HTML, CSS, JavaScript, Angular.',
+        'Redeveloped KYC application for a bank using NGX formly framework.',
+        'Working knowledge in the development of user interface. All the forms in this application are generated dynamically.',
+        'Designed and created shared components which could be used seamlessly in any of the screen no matter what transactional data format that screen design would support.',
+        'Code was written dynamic enough that any new requirements change does not effect the application.'
       ],
     },
     {
-      role: 'Senior Vice President',
-      company: 'Google',
-      duration: 'Apr 2012 - Aug 2015',
+      role: 'Team Member',
+      company: 'D - Code',
+      duration: 'Sep 2018 - May 2021',
       description: [
-        'Involved in various Public talks',
-        'Open Sourced Google VP8',
-      ],
-    },
-    {
-      role: 'Vice President',
-      company: 'Google',
-      duration: 'Jul 2008 - Mar 2012',
-      description: [
-        'Included Android in Google',
-        'Worked on Development of Google Maps',
-      ],
-    },
-    {
-      role: 'Product Manager',
-      company: 'Google',
-      duration: 'Apr 2004 - Jun 2008',
-      description: [
-        'Worked on Google Toolbar',
-        'Involved in team to develop Google Chrome',
-      ],
-    },
-    {
-      role: 'Software Developer',
-      company: 'McKinsey & Co',
-      duration: 'Sep 2002 - Mar 2004',
-      description: [
-        'Worked with multiple teams to develop desktop and web applications',
-        'Worked on different technologies such as (Dotnet, C++, Java)',
+        'D - Code is the Society for Computer Engineers.It is responsible for conducting workshops on trending technologies to encourage student.',
+        'Mentored over 50 + students in learning Java and Data Structures and Algorithms.Have worked on numerous projects as a team.',
       ],
     },
   ];
