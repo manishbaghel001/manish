@@ -14,13 +14,9 @@ export class ResponsiveDirective {
       for (let breakpoint of Object.keys(result.breakpoints)) {
         if (result.breakpoints[breakpoint]) {
           if (breakpoint == Breakpoints.HandsetPortrait) {
-            console.log("pc");
-
             this.element.nativeElement.classList.remove('pc')
           }
           if (breakpoint == Breakpoints.WebLandscape) {
-            console.log(" not pc");
-
             this.element.nativeElement.classList.add('pc');
           }
 
