@@ -33,6 +33,14 @@ ul {
     color: var(--green);
 }
 
+.my-icon-large {
+    font-size: 120%;
+    margin-top: 0.7rem;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+}
+
 .contact-info li {
     height: 30px;
     font-size: 1.2rem;
@@ -62,4 +70,12 @@ ul {
 
 :host.pc .social-media li:hover {
     background-color: rgba(255, 255, 255, 0.3);
+}
+
+/* Footer */
+.copyright {
+    padding-bottom: 0.8rem;
+    padding-top: 2rem;
+    text-align: center;
+    overflow-x: hidden;
 }
