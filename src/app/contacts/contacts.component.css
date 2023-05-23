@@ -74,7 +74,7 @@ ul {
 
 /* Footer */
 .copyright {
-    padding-bottom: 0.8rem;
+    padding-bottom: 0;
     padding-top: 2rem;
     text-align: center;
     overflow-x: hidden;
