@@ -1,7 +1,7 @@
 :host {
     display: block;
     color: white;
-    padding: 2rem 3rem;
+    padding: 2rem 2rem;
 }
 
 section {
@@ -22,7 +22,17 @@ section ul {
     list-style: circle;
 }
 
+h1 {
+    border-radius: 25px;
+}
+
 /* PC */
+
+:host.pc {
+    display: block;
+    color: white;
+    padding: 2rem 3rem;
+}
 
 :host.pc section {
     margin-left: 5rem;

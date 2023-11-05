@@ -21,6 +21,10 @@ ul li h4 {
     color: var(--gray-light);
 }
 
+h1 {
+    border-radius: 25px;
+}
+
 /* PC */
 :host.pc ul li:has(ul) {
     width: max-content;

@@ -16,6 +16,10 @@ section h4 {
     color: var(--gray-light);
 }
 
+h1 {
+    border-radius: 25px;
+}
+
 /* PC */
 :host.pc section {
     width: 600px;
