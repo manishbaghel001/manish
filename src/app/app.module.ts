@@ -11,6 +11,7 @@ import { ContactsComponent } from './contacts/contacts.component';
 import { ProjectsComponent } from './projects/projects.component';
 import { EducationComponent } from './education/education.component';
 import { ResponsiveDirective } from './directives/responsive.directive';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { ResponsiveDirective } from './directives/responsive.directive';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
