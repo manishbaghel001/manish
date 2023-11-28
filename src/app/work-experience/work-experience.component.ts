@@ -22,12 +22,13 @@ export class WorkExperienceComponent {
       ],
     },
     {
-      role: 'Team Member',
-      company: 'D - Code',
-      duration: 'Sep 2018 - May 2021',
+      role: 'WEB DEVELOPER',
+      company: 'Spider Innovative Technologies',
+      duration: 'Feb 2020 - May 2021',
       description: [
-        'D - Code is the Society for Computer Engineers.It is responsible for conducting workshops on trending technologies to encourage student.',
-        'Mentored over 50 + students in learning Java and Data Structures and Algorithms.Have worked on numerous projects as a team.',
+        'Managed all Tech part from server to website for all clients.',
+        'Created multiple websited from scratch using HTML / CSS, Angular, NODE JS.',
+        'Managed a team of interns and developers for a few projects.'
       ],
     },
   ];

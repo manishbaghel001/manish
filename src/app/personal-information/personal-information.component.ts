@@ -9,15 +9,18 @@ export class PersonalInformationComponent {
   myData: string[][] = [
     ['Name', 'Manish Baghel'],
     ['DOB', '30/12/1999'],
-    ['Work Exp', '2.5 Years'],
+    ['Work Exp', '3.5 Years'],
     ['Education', 'B.tech(2021)'],
-    ['Interests', 'Cinephile, Cricket'],
+    ['Interests', 'Travelling, Cinephile, Gaming']
   ];
 
   aboutMe: string[] = [
-    'I am a Full Stack Developer with 2.5 + years of experience crafting Angular applications.',
-    'My enthusiasm for technological innovation, commitment to continuous self - development, and focus on leadership skills make me an ideal candidate.',
-    'Eager to contribute to cutting - edge projects and collaborate within dynamic teams.'
+
+    'As a Full Stack Developer with 3+ years specializing in Angular,',
+    'I craft robust web apps, bridging front-end and back-end for comprehensive solutions.',
+    'Passionate about tech innovation, I bring strong leadership to dynamic teams.',
+    'Eager to contribute to cutting-edge projects, my commitment to self-development sets me apart.',
+    'Beyond coding, I explore diverse cultures through travel.'
   ];
 
   constructor() { }

@@ -1,7 +1,36 @@
-<app-baner appResponsive></app-baner>
-<app-personal-information appResponsive></app-personal-information>
-<app-education appResponsive></app-education>
-<app-work-experience appResponsive></app-work-experience>
-<app-skills appResponsive></app-skills>
-<app-projects appResponsive></app-projects>
-<app-contacts appResponsive></app-contacts>
+<nav class="header-col">
+    <!-- Mobile menu icon -->
+    <div class="mobile-menu-icon">
+        <a *ngIf="!menuOpen">
+            <i class='icon-menu bx bx-menu' id="menu" (click)="toggleMenu()"></i>
+        </a>
+        <a *ngIf="menuOpen">
+            <i class='bx bx-x' id="menu" (click)="toggleMenu()"></i>
+        </a>
+    </div>
+
+    <!-- Desktop navigation -->
+    <ul class="desktop-menu" *ngIf="!menuOpen">
+        <li *ngFor="let item of menuItems">
+            <a (click)="scrollTo(item.link)" [ngClass]="{'menu-item': true, 'active': activeMenuItem === item.link }">{{
+                item.label
+                }}</a>
+        </li>
+    </ul>
+
+    <!-- Mobile navigation -->
+    <ul class="mobile-menu" *ngIf="menuOpen">
+        <li *ngFor="let item of menuItems">
+            <a (click)="scrollTo(item.link)" [ngClass]="{'menu-item': true, 'active': activeMenuItem === item.link }">{{
+                item.label
+                }}</a>
+        </li>
+    </ul>
+</nav>
+<app-baner appResponsive #banerComponent></app-baner>
+<app-personal-information appResponsive #personalComponent></app-personal-information>
+<app-education appResponsive #educationComponent></app-education>
+<app-work-experience appResponsive #workComponent></app-work-experience>
+<app-skills appResponsive #skillsComponent></app-skills>
+<app-projects appResponsive #projectsComponent></app-projects>
+<app-contacts appResponsive #contactsComponent></app-contacts>
