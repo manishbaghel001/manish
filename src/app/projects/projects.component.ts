@@ -7,13 +7,16 @@ import { Project } from '../models/models';
   styleUrls: ['./projects.component.css']
 })
 export class ProjectsComponent {
-
-
-
-
-
-
   projects: Project[] = [
+    {
+      title: 'Tasks Todo Board',
+      technologies: 'Angular, Express, MongoDB and Firebase',
+      description: [
+        'Crafted an innovative Todo Task Board website using Angular 16, HTML, and CSS on the frontend, while ensuring robust functionality with Express and MongoDB on the backend.',
+        'Secured user access through Firebase authentication. Elevate your task management experience at ',
+      ],
+      link: 'https://manishbaghel001.github.io/tasks'
+    },
     {
       title: 'Food Ordering Web application',
       technologies: 'HTML, CSS, JQuery',
@@ -28,15 +31,7 @@ export class ProjectsComponent {
       description: [
         'Mobile App - For booking time slots for gyms.Used dart language for building android and ios Application from a single codebase.',
       ],
-    },
-    {
-      title: 'Election Database',
-      technologies: 'Java',
-      description: [
-        'Made a Java Program to handle election data for various states and also included counting algorithm to decide the winning party.',
-        'Used Data Structures such as Binary Search Tree and Binary Max Heap to handle different queries during counting.',
-      ],
-    },
+    }
   ];
   constructor() { }
 
