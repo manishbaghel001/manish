@@ -1,0 +1,20 @@
+<div id="projects" class="container">
+    <h1>Projects</h1>
+
+    <section *ngFor="let project of projects">
+        <h2>{{project.title}}</h2>
+
+        <h3>
+            <span>Technologies: </span>
+            <span>{{project.technologies}}</span>
+        </h3>
+
+        <ul *ngFor="let desc of project.description; let isLast = last">
+            <li>
+                <p>{{desc}}
+                    <a *ngIf="project.link && isLast" href="{{project.link}}" target="_blank">Visit website</a>
+                </p>
+            </li>
+        </ul>
+    </section>
+</div>
