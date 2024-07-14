@@ -9,7 +9,7 @@ import { WorkExperience } from '../models/models';
 export class WorkExperienceComponent {
   workExpList: WorkExperience[] = [
     {
-      role: 'Senior System Engineer',
+      role: 'Technology Analyst',
       company: 'Infosys',
       duration: 'June 2021 - Now',
       description: [
